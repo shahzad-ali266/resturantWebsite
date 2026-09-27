@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+
+/* Header */
+header {
+    background-color: #8b2e16;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+
+/* Home section */
+.hero {
+    background-color: #f4a261;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.button {
+    background-color: #8b2e16;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #5c1d0e;
+}
+
+
+/* About section */
+.about {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about h2,
+.menu h2,
+.contact h2 {
+    color: #8b2e16;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+
+/* Menu section */
+.menu {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffe8d6;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.food {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px #ccc;
+}
+
+.food h3 {
+    color: #8b2e16;
+    margin-bottom: 10px;
+}
+
+.food p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.food span {
+    color: #e76f51;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Contact section */
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact p {
+    margin: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #8b2e16;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Mobile screen */
+@media (max-width: 600px) {
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    .food {
+        width: 90%;
+    }
+}
